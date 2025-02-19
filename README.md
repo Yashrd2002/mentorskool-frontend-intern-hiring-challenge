@@ -1,36 +1,22 @@
-# mentorskool-frontend-intern-hiring-challenge
+# Form Builder
 
-**The deadline for this task is February 20, 2025**
+## Installation
 
-**Google Form Clone Project Overview**
+```bash
+npm install
+```
 
-This project is a simple Google Form clone with essential form-building functionality and user authentication.
+##
 
-**Features**
-- User Authentication
-- Secure sign-up/sign-in functionality
+Make .env.local in root directory
 
-**Form Builder**
+```bash
 
-Create new forms with multiple question types:
+NEXT_PUBLIC_SUPABASE_URL="https://wbsqptbdcqxtyxsaxgxu.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Indic3FwdGJkY3F4dHl4c2F4Z3h1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzk4MDQ2NDQsImV4cCI6MjA1NTM4MDY0NH0.9-kIpPw5zRZMQvhTBeNWDDIMnfnJ03ejHNf5rbd1gKY"
 
-- Multiple Choice (MCQ)
-- File Upload (PDF, images, documents)
-- Checkbox 
-- Short answer
-- Drag-and-drop question reordering (optional)
+```
 
-**Tech Stack Frontend**
+## Link to Project
 
-- React 18 with TypeScript
-- Material-UI (MUI) for components and styling
-- TanStack Query 
-- React Hook Form (where applicable) for form handling
-- Supabase
-
-**Implementation Notes**
-
-- Clean UI/UX following Google Forms' design patterns
-- Proper TypeScript interfaces and type safety
-- Efficient state management
-- Loading states and error handling for API calls
+https://form-builder-coral.vercel.app/
